@@ -1,0 +1,94 @@
+/* Main container */
+.ui.main.container
+{
+    margin-top: 100px;
+    padding: 20px;
+}
+
+/* Navigation Menu */
+.ui.fixed.inverted.menu
+{
+    height: 50px;
+    line-height: 50px;
+}
+
+/* Form container */
+.ui.form .fields
+{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ui.form .field
+{
+    flex: 1 !important;
+    min-width: 100px;
+    /* Ensures responsiveness */
+    margin: 0 !important;
+    /* Remove extra margin */
+}
+
+.ui.form input
+{
+    width: 50% !important;
+}
+
+/* Save Button */
+.submit-button
+{
+    margin-top: 1px;
+    align-self: center;
+    /* Ensure it aligns properly */
+    min-width: 100px !important;
+    /* Ensure button is large enough */
+}
+
+/* Edit & Delete Buttons */
+.action-buttons
+{
+    display: flex;
+    /* Add space between buttons */
+    justify-content: center;
+}
+
+.ui.button
+{
+    min-width: 80px;
+    text-align: center;
+}
+
+/* Table */
+.ui.celled.table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ui.celled.table th,
+.ui.celled.table td
+{
+    border: 1px solid #3e3d3d;
+    padding: 10px;
+    text-align: left;
+}
+
+.ui.celled.table th
+{
+    background-color: #636363;
+    font-weight: bold;
+}
+
+.ui.celled.table td
+{
+    vertical-align: middle;
+    /* Aligns content properly */
+}
+
+
+.ui.inverted.dimmer
+{
+    background-color: rgba(255, 255, 255, 0) !important;
+}
